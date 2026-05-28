@@ -1,0 +1,9 @@
+.control-page {
+  width: 100%;
+  padding: 2rem;
+}
+
+.control-page__board {
+  width: clamp(700px, 75%, 1000px);
+  margin: 0 auto;
+}
