@@ -1,22 +1,16 @@
 // src/pages/Home/index.tsx
+import Menu from "@/components/Menu";
 
-import { Link } from 'react-router'
-import './styles.css'
-
-function HomePage() {
+const Home = () => {
   return (
-    <div>
-      <h1>Bingo Game</h1>
+    <>
+      <Menu />
 
-      <Link to="/control">
-        <button>Controle</button>
-      </Link>
+      <main>
+        <h1>Home</h1>
+      </main>
+    </>
+  );
+};
 
-      <Link to="/panel">
-        <button>Painel</button>
-      </Link>
-    </div>
-  )
-}
-
-export default HomePage
+export default Home;

@@ -1,14 +1,15 @@
-import { Link } from "react-router"
+import Menu from "@/components/Menu";
 
-function ControlPage() {
+const Control = () => {
   return (
-    <div>
-      <h1>Panel</h1>
-      <Link to="/">
-        <button>Home Page</button>
-      </Link>
-    </div>
-  )
-}
+    <>
+      <Menu />
 
-export default ControlPage
+      <main>
+        <h1>Controle</h1>
+      </main>
+    </>
+  );
+};
+
+export default Control;

@@ -1,15 +1,15 @@
-import { Link } from 'react-router'
-import './styles.css'
+import Menu from "@/components/Menu";
 
-function PanelPage() {
+const Panel = () => {
   return (
-    <div>
-      <h1>Panel</h1>
-      <Link to="/">
-        <button>Home Page</button>
-      </Link>
-    </div>
-  )  
-}
+    <>
+      <Menu />
 
-export default PanelPage
+      <main>
+        <h1>Painel</h1>
+      </main>
+    </>
+  );
+};
+
+export default Panel;
