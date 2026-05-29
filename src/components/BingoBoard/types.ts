@@ -1,5 +1,4 @@
-import type { BingoState } from "@/types/bingo"
-
-export interface BingoBoardProps extends BingoState {
+export interface BingoBoardProps {
+  drawnNumbers: number[]
   onNumberToggle?: (number: number) => void
 }

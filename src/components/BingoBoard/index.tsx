@@ -35,7 +35,7 @@ export function BingoBoard({
   return (
     <section className="bingo-board">
       <header className="bingo-board__header">
-        <h2>Painel do Bingo</h2>
+        <h2>Painel de Números</h2>
 
         <span>
           {drawnNumbers.length} números sorteados
