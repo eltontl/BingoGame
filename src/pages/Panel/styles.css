@@ -1,0 +1,40 @@
+.panel-page {
+  min-height: 100vh;
+
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 2rem;
+
+  background:
+    linear-gradient(
+      180deg,
+      #f5f7fa,
+      #e8edf3
+    );
+}
+
+.panel-top {
+  display: grid;
+
+  grid-template-columns:
+    2fr 1fr;
+
+  gap: 2rem;
+}
+
+.panel-middle {
+  width: 100%;
+}
+
+.panel-board {
+  flex: 1;
+}
+
+@media (max-width: 900px) {
+  .panel-top {
+    grid-template-columns: 1fr;
+  }
+}

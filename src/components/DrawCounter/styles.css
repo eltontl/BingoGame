@@ -1,0 +1,22 @@
+.draw-counter {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  padding: 1.5rem;
+
+  border-radius: 16px;
+
+  background: white;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,.08);
+}
+
+.draw-counter span {
+  font-size: .9rem;
+}
+
+.draw-counter strong {
+  font-size: 3rem;
+}

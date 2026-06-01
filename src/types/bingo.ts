@@ -5,3 +5,9 @@ export interface BingoState {
   lastNumbers: number[]
   currentNumber: number | null
 }
+
+export const initialBingoState: BingoState = {
+  drawnNumbers: [],
+  lastNumbers: [],
+  currentNumber: null,
+}

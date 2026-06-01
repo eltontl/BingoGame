@@ -25,7 +25,7 @@ function Control() {
           ),
         }
       }
-      
+
       return {
         drawnNumbers: [...previous.drawnNumbers, number].sort((a, b) => a - b),
         lastNumbers: [number, ...previous.lastNumbers].slice(0, 10),
